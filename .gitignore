@@ -1,0 +1,32 @@
+# Large CT image files
+*.nii
+*.nii.gz
+
+# Model weights
+*.pth
+*.pt
+
+# Numpy arrays that can be regenerated
+*.npy
+
+# Raw clinical files
+clinical*.csv
+clinical*.tsv
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Temp files
+*.tmp
+*.log
+
+# VS Code settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
