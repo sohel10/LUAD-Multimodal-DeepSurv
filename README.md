@@ -1,4 +1,4 @@
-## 📘 LUAD-Multimodal-DeepSurv
+### 📘 LUAD-Multimodal-DeepSurv
 
 A Multimodal Survival Prediction Pipeline for Lung Adenocarcinoma (LUAD)
 CT Radiomics + Clinical Data + NLP-Generated Radiology Reports + DeepSurv Survival Modeling
@@ -19,7 +19,7 @@ SHAP-based explainability
 
 Kaplan–Meier risk stratification
 
-### 🧠 Pipeline Overview
+## 🧠 Pipeline Overview
 
 Multimodal Components:
 
@@ -72,23 +72,11 @@ python 2_merge_multimodal_data.py
 ## Outputs:
 
 LUAD_multimodal_dataset.csv
-
-4. Train DeepSurv + SHAP + KM Curves
-
-3_deep_surv_shap_explain.ipynb
+4. Train DeepSurv + SHAP + KM Curves 3_deep_surv_shap_explain.ipynb
 
 ## Produces:
 
-deep_surv_loss_curve.png
-
-deep_surv_km_curve.png
-
-deep_surv_shap_summary.png
-
-LUAD_predictions.csv
-
-KM_summary_stats.csv
-
+deep_surv_loss_curve.png deep_surv_km_curve.png deep_surv_shap_summary.png LUAD_predictions.csv KM_summary_stats.csv
 Log-rank p-value: ≈ 0.32
 
 ## 📊 Results Summary
@@ -98,37 +86,19 @@ Log-rank p-value: ≈ 0.32
 </p>
 Distinct Low-/High-Risk groups
 
-Visually separated Kaplan–Meier curves
+#Visually separated Kaplan–Meier curves
 
-SHAP identified:
+SHAP identified: Tumor size Radiomics GLCM texture features
 
-Tumor size
-
-Radiomics GLCM texture features
-
-BERT-text features
-
-Clinical stage
-as strongest contributors to risk.
-
-Kaplan–Meier Example:
-Log-rank p-value: ~0.31
-
-
+# BERT-text features
+Clinical stage as strongest contributors to risk.
+Kaplan–Meier Example: Log-rank p-value: ~0.31
 (This is expected for small synthetic datasets.)
 
 🧩 Explainability (SHAP)
 
-The project includes:
+# The project includes:
 
-SHAP summary plot
+SHAP summary plot SHAP bar chart Per-patient force plots (optional)
 
-SHAP bar chart
-
-Per-patient force plots (optional)
-
-These help visualize:
-
-Which radiomics and text features increase hazard
-
-Which features reduce predicted mortality risk
+These help visualize: Which radiomics and text features increase hazard Which features reduce predicted mortality risk
