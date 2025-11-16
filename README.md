@@ -132,7 +132,9 @@ Log-rank p-value: ≈ 0.32
 
 📊 Results Summary
 ✔️ DeepSurv Multimodal model produced:
-
+<p align="center">
+  <img src="deep_surv_prob_histogram.png" width="85%" alt="CT Radiomics Cover Image">
+</p>
 Distinct Low-/High-Risk groups
 
 Visually separated Kaplan–Meier curves
