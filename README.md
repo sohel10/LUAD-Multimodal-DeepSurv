@@ -3,7 +3,7 @@
 A Multimodal Survival Prediction Pipeline for Lung Adenocarcinoma (LUAD)
 CT Radiomics + Clinical Data + NLP-Generated Radiology Reports + DeepSurv Survival Modeling
 
-This repository contains a full end-to-end multimodal survival analysis pipeline using:
+# This repository contains a full end-to-end multimodal survival analysis pipeline using:
 
 Radiomics features extracted from CT scans
 
@@ -59,14 +59,14 @@ LUAD-Multimodal-DeepSurv/
 ├── LICENSE
 └── README.md
 
-🚀 How to Run the Pipeline
+# 🚀 How to Run the Pipeline
 1. Install dependencies
 conda create -n luad python=3.10
 conda activate luad
 pip install -r requirements.txt
 
 
-Required packages:
+# Required packages:
 
 numpy, pandas
 
@@ -93,7 +93,7 @@ Notebook:
 1_generate_radiology_reports.ipynb
 
 
-This produces:
+# This produces:
 
 radiology_reports.csv
 text_embeddings.npy
@@ -130,7 +130,7 @@ KM_summary_stats.csv
 
 Log-rank p-value: ≈ 0.32
 
-📊 Results Summary
+## 📊 Results Summary
 ✔️ DeepSurv Multimodal model produced:
 <p align="center">
   <img src="deep_surv_prob_histogram.png" width="85%" alt="CT Radiomics Cover Image">
